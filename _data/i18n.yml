@@ -1,0 +1,289 @@
+languages: 
+  de:
+    id: de
+    name: Deutsch
+    urlbase: de
+  en:
+    id: en
+    name: English
+    urlbase: en
+
+default: de
+
+logo:
+  upperaustria:
+    en: "assets/img/logos/logo_upperaustria_en.png"
+    de: "assets/img/logos/logo_upperaustria_de.png"
+
+t:
+  nav:
+    info:
+      en: "Info"
+      de: "Info"
+    publications:
+      en: "Publications"
+      de: "Publikationen"
+    blog:
+      en: "Blog"
+      de: "Blog"
+    blog-preview:
+      en: "Blog Preview"
+      de: "Blog Vorschau"
+    team:
+      en: "Team"
+      de: "Team"
+    partners:
+      en: "Partners"
+      de: "Partner"
+    contact:
+      en: "Contact"
+      de: "Kontakt"
+
+  sections:
+    funding:
+      logo:
+        en: "assets/img/logos/upperaustria_en.png"
+        de: "assets/img/logos/upperaustria_de.png"
+      text:
+        en: "The project Energy Neutral Production is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information visit "
+        de: "Das Projekt Energy Neutral Production wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter "
+      link:
+        en: "https://www.uppervision.at/en/"
+        de: "https://www.uppervision.at/"
+      link_text:
+        en: "www.uppervision.at."
+        de: "www.uppervision.at."
+    info:
+      title:
+        en: "Info"
+        de: "Info"
+      subtitle:
+        en: "About the project"
+        de: "Über das Projekt"
+      techniques:
+        - modelling:
+          icon: "cubes"
+          title:
+            en: "Modelling"
+            de: "Modellierung"
+          text:
+            en: "Data- and knowledge-based models for the detection and prediction of energy consumption"
+            de: "Daten- und wissensbasierte Modelle zur Erfassung und Prognose des Energieverbrauchs"
+        - simulation:
+          icon: "hexagon-nodes"
+          title:
+            en: "Simulation"
+            de: "Simulation"
+          text:
+            en: "Simulation models for the representation of energy consumption"
+            de: "Simulationsmodelle zur Abbildung des Energieverbrauchs"
+        - optimization:
+          icon: "rocket"
+          title:
+            en: "Optimization"
+            de: "Optimierung"
+          text:
+            en: "Optimization methods for reducing energy consumption in production"
+            de: "Optimierungsmethoden zur Reduktion des Energieverbrauchs in der Produktion"
+    team:
+      title:
+        en: "Team"
+        de: "Team"
+      subtitle:
+        en: "Our researchers"
+        de: "Unsere Forscher"
+      members:
+        - name: Klaus Altendorfer
+          title: Priv. Doz. FH-Prof. DI (FH), PhD
+          img: altendorfer.jpg
+          position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Balwin Bokor
+          title: BA MSc
+          img: bokor.jpg
+          position: Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Manuel Brunner
+          title: BSc MSc
+          img: brunner.jpg
+          position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Roman Froschauer
+          title: FH-Prof. DI (FH) Dr.techn.
+          img: froschauer.jpg
+          position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Holger Gröning
+          title: FH-Prof. Dr.-Ing.
+          img: groening.jpg
+          position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Florian Holzinger
+          title: BSc MSc
+          img: holzinger.jpg
+          position: Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Philipp Neuhauser
+          title: BSc MSc
+          img: neuhauser.jpg
+          position: Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Wolfgang Seiringer
+          title: MMag. Bakk. techn.
+          img: seiringer.jpg
+          position: Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Fabian Spitzer
+          title: DI BSc
+          img: spitzer.jpg
+          position: Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Stefan Wagner
+          title: FH-Prof. DI Dr.
+          img: wagner.jpg
+          position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+      
+
+  links:
+    swph:
+      en: "https://www.softwarepark-hagenberg.com/en/"
+      de: "https://www.softwarepark-hagenberg.com/"
+    scch:
+      en: "https://www.scch.at/"
+      de: "https://www.scch.at/"
+    fhooe:
+      en: "https://www.fh-ooe.at/en/"
+      de: "https://www.fh-ooe.at/"
+    risc:
+      en: "https://www.risc-software.at/en/"
+      de: "https://www.risc-software.at/"
+
+  pages:
+    imprint:
+      en: "Imprint"
+      de: "Impressum"
+    imprint-link:
+      en: "imprint"
+      de: "impressum"
+    dataprotection:
+      en: "Data Protection"
+      de: "Datenschutz"
+    dataprotection-link:
+      en: "dataprotection"
+      de: "datenschutz"
+    press:
+      en: "Press Material"
+      de: "Pressematerial"
+    press-link:
+      en: "press"
+      de: "pressematerial"
+    sitemap:
+      en: "Sitemap"
+      de: "Sitemap"
+
+  footer:
+    fhooe:
+      en: "FH Upper Austria"
+      de: "FH Oberösterreich"
+    fhooe-link:
+      en: "https://www.fh-ooe.at/en/"
+      de: "https://www.fh-ooe.at/"
+    risc:
+      en: RISC Software GmbH
+      de: RISC Software GmbH
+    risc-link:
+      en: https://www.risc-software.at/en/
+      de: https://www.risc-software.at/
+    scch:
+      en: SCCH GmbH
+      de: SCCH GmbH
+    scch-link:
+      en: "https://www.scch.at/"
+      de: "https://www.scch.at/"
+    uv30-link:
+      en: "https://www.uppervision.at/en/"
+      de: "https://www.uppervision.at/"
+    imprint:
+      en: "Imprint"
+      de: "Impressum"
+    dataprotection:
+      en: "Data Protection"
+      de: "Datenschutz"
+    contact:
+      en: "Contact"
+      de: "Kontakt"
+    press:
+      en: "Press Material"
+      de: "Pressematerial"
+    fhooefull:
+      en: "University of Applied Sciences Upper Austria"
+      de: "Fachhochschule Oberösterreich"
+    fundingtext:
+      en: 'The project Secure Prescriptive Analytics is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information go to'
+      de: 'Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter'
+
+
+  months:
+    en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    de: ["Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember" ]

@@ -1,0 +1,52 @@
+{% capture pagescroll %}{% endcapture %}
+
+{% if page.lang == site.lang %}
+    {% if page.url == "/" %}
+        {% capture prefix %}{% endcapture %}
+        {% capture pagescroll %}page-scroll{% endcapture %}
+    {% else %}
+        {% capture prefix %}/{% endcapture %}
+    {% endif %}
+{% else %}
+    {% capture lang_baseurl %}/{{page.lang}}/{% endcapture %}
+    {% if page.url == lang_baseurl %}
+        {% capture pagescroll %}page-scroll{% endcapture %}
+    {% endif %}
+    {% capture prefix %}/{{ page.lang }}/{% endcapture %}
+{% endif %}
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#info">{{ site.data.i18n.t.nav.info[site.active_lang] }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.i18n.t.nav.contact[site.active_lang] }}</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading">Energy Neutral Production</div>
+        <div class="masthead-heading">ENPro</div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#info">Tell Me More</a>
+    </div>
+</header>
+
+<!--
+    {% for page in site.pages %}
+        {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+    {% endfor %}
+-->
+

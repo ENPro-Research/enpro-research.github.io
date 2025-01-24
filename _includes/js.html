@@ -1,0 +1,37 @@
+ <!-- jQuery Version 1.11.0 -->
+    <!--<script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>-->
+   <script src="{{ "/assets/js/jquery-3.7.1.min.js" | relative_url }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>-->
+    <script src="{{ "/assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+
+    <script>
+      $(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        anime({
+            targets: 'html, body',
+            scrollTop: $($anchor.attr('href')).offset().top,
+            duration: 1500,
+            easing: 'easeInOutQuad'
+        });
+        event.preventDefault();
+    });
+});
+    </script>
+
+
+    <!-- Plugin JavaScript -->
+    <!--<script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>-->
+
+    <!-- Contact Form JavaScript -->
+    <!-- <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>-->
+    <!-- <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>-->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
