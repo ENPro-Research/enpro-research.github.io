@@ -42,8 +42,8 @@ t:
   sections:
     funding:
       logo:
-        en: "assets/img/logos/upperaustria_en.png"
-        de: "assets/img/logos/upperaustria_de.png"
+        en: "upperaustria_en.png"
+        de: "upperaustria_de.png"
       text:
         en: "The project Energy Neutral Production is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information visit "
         de: "Das Projekt Energy Neutral Production wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter "

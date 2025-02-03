@@ -11,7 +11,7 @@
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">{{ post.title }}</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/{{ post.img }}" alt="{{ post.alt }}" />
+                                <img class="img-fluid d-block mx-auto" src="{{ 'assets/img/portfolio/' | append: post.thumbnail | relative_url }}" alt="{{ post.alt }}" />
                                 <p>{{ post.description }}</p>
                                 <ul class="list-inline">
                                     <li>

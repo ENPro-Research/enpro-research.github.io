@@ -12,7 +12,7 @@ lang: de
 
 languages: ["de", "en"]
 default_lang: "de"
-exclude_from_localization: ["assets/img"]
+exclude_from_localization: ["assets"]
 parallel_localization: false
 
 sass:

@@ -14,7 +14,7 @@
                         <div class="blog-hover">
                             <div class="blog-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/{{ post.thumbnail }}" alt="..." />
+                        <img class="img-fluid" src="{{ 'assets/img/portfolio/' | append: post.thumbnail | relative_url }}" alt="{{ post.thumbnail }}" />
                     </a>
                     <div class="blog-caption">
                         <div class="blog-caption-heading">{{ post.title }}</div>
