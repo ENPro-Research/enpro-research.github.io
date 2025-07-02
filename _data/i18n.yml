@@ -95,8 +95,19 @@ t:
       members:
         - name: Klaus Altendorfer
           title: Priv. Doz. FH-Prof. DI (FH), PhD
-          img: altendorfer.jpg
+          img: Altendorfer_Portrait.jpg
           position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Doris Bernroider
+          title: BSc MSc
+          img: Bernroider_Portrait.jpg
+          position: Researcher
           social:
             - icon: twitter
               url: #
@@ -106,7 +117,7 @@ t:
               url: #
         - name: Balwin Bokor
           title: BA MSc
-          img: bokor.jpg
+          img: Bokor_Portrait.jpg
           position: Researcher
           social:
             - icon: twitter
@@ -117,8 +128,8 @@ t:
               url: #
         - name: Manuel Brunner
           title: BSc MSc
-          img: brunner.jpg
-          position: Key Researcher
+          img: Brunner_Portrait.jpg
+          position: Administrative Project Lead
           social:
             - icon: twitter
               url: #
@@ -128,8 +139,19 @@ t:
               url: #
         - name: Roman Froschauer
           title: FH-Prof. DI (FH) Dr.techn.
-          img: froschauer.jpg
+          img: Froschauer_Portrait.jpg
           position: Key Researcher
+          social:
+            - icon: twitter
+              url: #
+            - icon: facebook
+              url: #
+            - icon: stack-overflow
+              url: #
+        - name: Jochen Giedenbacher
+          title: BSC MSc
+          img: Giedenbacher_Portrait.jpg
+          position: Researcher
           social:
             - icon: twitter
               url: #
@@ -139,7 +161,7 @@ t:
               url: #
         - name: Holger Gröning
           title: FH-Prof. Dr.-Ing.
-          img: groening.jpg
+          img: Groening_Portrait.jpg
           position: Key Researcher
           social:
             - icon: twitter
@@ -150,7 +172,7 @@ t:
               url: #
         - name: Florian Holzinger
           title: BSc MSc
-          img: holzinger.jpg
+          img: Holzinger_Portrait.jpg
           position: Researcher
           social:
             - icon: twitter
@@ -161,7 +183,7 @@ t:
               url: #
         - name: Philipp Neuhauser
           title: BSc MSc
-          img: neuhauser.jpg
+          img: Neuhauser_Portrait.jpg
           position: Researcher
           social:
             - icon: twitter
@@ -172,7 +194,7 @@ t:
               url: #
         - name: Wolfgang Seiringer
           title: MMag. Bakk. techn.
-          img: seiringer.jpg
+          img: Seiringer_Portrait.jpg
           position: Researcher
           social:
             - icon: twitter
@@ -183,7 +205,7 @@ t:
               url: #
         - name: Fabian Spitzer
           title: DI BSc
-          img: spitzer.jpg
+          img: Spitzer_Portrait.jpg
           position: Researcher
           social:
             - icon: twitter
