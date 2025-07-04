@@ -1,0 +1,15 @@
+groups:
+  - name: FH OÖ - HEAL
+    address: Softwarepark 13
+    members:
+      - nick: mbrunn
+        firstname: Manuel
+        lastname: Brunner
+        prefix:
+        postfix: MSc
+        function:
+          en: Administrative Project Lead
+          de: Administrative Projektleitung
+        phone: +43 5 0804 27142
+        mail: manuel.brunner@fh-ooe.at
+        photo: brunner.jpg

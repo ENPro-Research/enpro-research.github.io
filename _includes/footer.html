@@ -1,29 +1,70 @@
-<footer class="footer py-4">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-4 text-lg-start">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</div>
-            <div class="col-lg-4 my-3 my-lg-0">
-                {% for network in site.social %}
-                <a class="btn btn-dark btn-social mx-2" href="{{ network.url }}" aria-label="..."><i class="fa-brands fa-{{ network.title }}"></i></a>
-                {% endfor %}
+
+{% if page.lang == site.lang or page.lang == [] %}
+    {% assign _lang = site.lang %}
+    {% capture footer_prefix %}/{% endcapture %}
+{% else %}
+    {% assign _lang = page.lang %}
+    {% capture footer_prefix %}/{{ page.lang }}/{% endcapture %}
+{% endif %}
+
+<footer class="main-footer">
+    <section id="footer">
+        <div class="container">
+                
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div>
+                        <a class="footer-link" href="{{ site.data.i18n.t.links.enpro[_lang] }}">
+                            <span class="icon icon-enpro">{% include svg/enpro_logo.svg %}</span>
+                            <!-- <span class="icon icon-fhooe">{% include svg/fhooe_icon_g.svg %}</span> -->
+                        </a>
+                    </div>                    
+                    <div>FH OÖ Forschungs & Entwicklungs GmbH</div>
+                    <div>Roseggerstraße 15, 4600 Wels Austria</div>
+                    <div>Phone.: +43 5 0804 10, Fax: +43 5 0804 11900</div>
+                    <div><a href="mailto:info@fh-ooe.at">Mail: info@fh-ooe.at</a></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4>Quick Links</h4>
+                    <ul class="linklist">
+                    <li><a href="{{ site.data.i18n.t.footer.fhooe-link[_lang] }}" target="_blank">{{ site.data.i18n.t.footer.fhooe[_lang] }}</a></li>
+                    <li><a href="{{ site.data.i18n.t.footer.heal-link[_lang] }}" target="_blank">{{ site.data.i18n.t.footer.heal[_lang] }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4>Infos</h4>
+                    <ul class="linklist">                        
+                        <li><a href="{{ footer_prefix }}{{ site.data.i18n.t.pages.imprint-link[_lang] }}">{{ site.data.i18n.t.footer.imprint[_lang] }}</a></li>
+                        <li><a href="{{ footer_prefix }}{{ site.data.i18n.t.pages.dataprotection-link[_lang] }}">{{ site.data.i18n.t.footer.dataprotection[_lang] }}</a></li>
+                        <li><a href="{{ footer_prefix }}{{ site.data.i18n.t.pages.sitemap-link[_lang] }}">{{ site.data.i18n.t.footer.sitemap[_lang] }}</a></li>
+                        <li><a href="{{ footer_prefix }}#contact">{{ site.data.i18n.t.footer.contact[_lang] }}</a></li>
+                        <li><a href="{{ footer_prefix }}{{ site.data.i18n.t.pages.press-link[_lang] }}">{{ site.data.i18n.t.footer.press[_lang] }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-6 col-sm-12">
+                    <ul class="iconlist">
+                        <li><a class="icon-link" href="{{ site.data.links.github }}" target="_blank"><span class="icon icon-github">{% include svg/icon-github.svg %}</span></a></li>
+                        <li><a class="icon-link" href="{{ "/feed.xml" | relative_url }}" target="_blank"><span class="icon icon-rss">{% include svg/icon-rss.svg %}</span></a></li>
+                        <li class="lang-selector">
+                            {% if _lang == "de" %}
+                                <span id="lang-link-de" class="lang-link active-lang" >DE</span>
+                                <a id="lang-link-en" class="lang-link" href="/en/">EN</a>
+                            {% else %}
+                                <a id="lang-link-de" class="lang-link" href="/" >DE</a>
+                                <span id="lang-link-en" class="lang-link active-lang" >EN</span>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-4 text-lg-end">
-                <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+            <div class="row special-info">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div>&copy {{ 'now' | date: "%Y" }} &nbsp;-&nbsp; ENPro</div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p>{{ site.data.i18n.t.footer.fundingtext[_lang] }} <a target="_blank" href="{{ site.data.i18n.t.footer.uv30-link[_lang] }}">www.uppervision.at</a>.</p>
+                </div>
             </div>
         </div>
-        <div class="row language-links">
-            {% for lang in site.languages %}
-                {% if lang == site.active_lang %}
-                    {{ lang }}
-                {% else %}
-                    {% if lang == site.default_lang %}
-                        <a href="{{ page.url }}" class="text-decoration-none">{{ lang }}</a>
-                    {% else %}
-                        <a href="/{{ lang }}{{ page.url }}" class="text-decoration-none">{{ lang }}</a>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+    </section>
 </footer>

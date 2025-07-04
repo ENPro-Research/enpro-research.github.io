@@ -1,0 +1,5 @@
+  - name: HEAL
+    link: https://heal.heuristiclab.com/
+    type: svg
+    logo: heal.svg
+    visible: true

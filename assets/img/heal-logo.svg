@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 456.3 228.8">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: CenturyGothic-Bold, 'Century Gothic';
+        font-size: 34.5px;
+        font-weight: 700;
+      }
+
+      .st0, .st1 {
+        fill: #176082;
+      }
+    </style>
+  </defs>
+  <g id="description">
+    <text class="st0" transform="translate(12.9 172.6)"><tspan x="0" y="0">Heuristic and Evolutionary</tspan><tspan x="0" y="41.4">Algorithms Laboratory</tspan></text>
+  </g>
+  <g id="figurativemark">
+    <polygon class="st1" points="68.3 57.4 91.4 47.7 91.4 20.2 68.3 29.9 68.3 57.4"/>
+    <polygon class="st1" points="68.3 89.1 91.4 79.4 91.4 51.9 68.3 61.6 68.3 89.1"/>
+    <polygon class="st1" points="63.7 120.5 40.6 110.8 40.6 83.3 63.7 93 63.7 120.5"/>
+    <polygon class="st1" points="36 108.9 12.9 99.2 12.9 71.7 36 81.4 36 108.9"/>
+    <polygon class="st1" points="63.7 89.1 40.6 79.4 40.6 51.9 63.7 61.6 63.7 89.1"/>
+    <polygon class="st1" points="36 77.8 12.9 68.1 12.9 40.6 36 50.3 36 77.8"/>
+    <polygon class="st1" points="36 46.5 12.9 36.8 12.9 9.3 36 19 36 46.5"/>
+    <polygon class="st1" points="96 108.9 119.1 99.2 119.1 71.7 96 81.4 96 108.9"/>
+    <polygon class="st1" points="68.3 120.5 91.4 110.8 91.4 83.3 68.3 93 68.3 120.5"/>
+  </g>
+  <g id="workdmark">
+    <path class="st1" d="M388.7,46.1v7.9c-6.4-5.2-14.5-8.3-23.4-8.3h0v15.1h0c12.3,0,22.3,10,22.3,22.3s-10,22.3-22.3,22.3-22.3-10-22.3-22.3,0-.1,0-.2h-15.1c0,0,0,.1,0,.2,0,20.6,16.8,37.4,37.4,37.4s17-3.1,23.4-8.3v8.3h15.1V46.1h-15.1Z"/>
+    <path class="st1" d="M275.3,105.4c-9.7,0-17.9-6.2-21-14.8h42s0,0,0,0h15.6c.5-2.4.8-5,.8-7.5,0-20.6-16.8-37.4-37.4-37.4s-37.4,16.8-37.4,37.4,16.8,37.4,37.4,37.4v-15.1ZM275.3,60.8c9.7,0,17.9,6.2,21,14.8h-42c3.1-8.6,11.3-14.8,21-14.8Z"/>
+    <rect class="st1" x="429.5" y="9.3" width="15.1" height="111.2"/>
+    <path class="st1" d="M221.7,77.7s0,0,0,0h0c0,0,0,0,0,0,0-16.7-13.6-30.3-30.3-30.3s-10.8,1.5-15.3,4.1V9.3h-15.1v111.2h15.1v-42.8c0-8.4,6.8-15.3,15.3-15.3s15.3,6.8,15.3,15.3h0v42.8h15.1v-42.8h0Z"/>
+  </g>
+</svg>

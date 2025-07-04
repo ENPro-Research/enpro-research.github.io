@@ -1,0 +1,101 @@
+header.home-header {
+   height: 100vh;
+   background-image: linear-gradient(#18410b, #1e8215);
+   position: relative;
+   overflow: hidden;
+   right: 0;
+   left: 0;
+   top: 0;
+   bottom: 0;
+
+   canvas {
+      display: block;
+      position: absolute;
+      background-color: $brand-primary;
+   }
+
+   .header-container {
+      height: 100%;
+      padding: 120px 0 60px 0;
+      position: absolute;
+   }
+
+   .header-info-container {
+      padding: 0 15px 0 15px;
+      color: $base-text-color-light;
+   }
+
+   h1 {
+      font-size: 4.0rem;
+      font-weight: 700;
+   }
+
+   h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+   }
+
+   p {
+      font-size: 1.75rem;
+      font-weight: 400;
+   }
+
+   @media (max-width: 767px) {
+      h1 {
+         font-size: 3.25rem;
+      }
+
+      h2 {
+         font-size: 1.75rem;
+      }
+
+      p {
+         font-size: 1.00rem;
+      }
+
+      .labicon-box,
+      .planticon-box {
+         display: none!important;
+         width:0!important;
+      }
+
+      .header-info-container {
+         width: 90%!important;
+      }
+   }
+
+   .labicon-box {
+      display: inline-block;
+      position: absolute;              
+      top: 10%;
+      left: 5%;
+
+      figure {
+         width: 400px;
+      }
+   }
+
+   .planticon-box {
+      display: inline-block;
+      position: absolute;
+      
+      
+      bottom: 7%;
+      left: 72%;
+
+      figure {
+         width: 400px;
+      }
+   }
+
+   .header-info-container {
+      display: inline-block;
+      width: 45%;
+      // position: absolute;
+      // top: 20%;
+      position: relative;
+
+
+      margin: auto auto auto auto;
+   }
+}

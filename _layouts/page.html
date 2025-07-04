@@ -1,0 +1,19 @@
+{% capture _url %}{{ site.url }}/{% endcapture %}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "de" }}">
+    <head>
+        {% include head.html %}
+    </head>
+    <body id="page-top">
+        {% include nav.html home=false navcss=" affix noani" %}
+        <div class="content-container">
+            {{ content }}
+        </div>        
+        {% include footer.html %}
+        {% include foot.html %}
+        <script>
+            document.title = "{{ page.title }}{{ site.title_tail }}";
+        </script>
+    </body>
+</html>

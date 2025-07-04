@@ -1,0 +1,59 @@
+.brand-primary {
+    background-color: $brand-primary;
+    color: $brand-dark-grey;
+
+    a {
+        color: $brand-dark-grey;
+    }
+}
+
+.fullscreen-section {
+    padding-top:120px;
+    padding-bottom:40px;
+    min-height: 60vh;
+}
+
+.fullscreen-section-no-header {
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height: 60vh;
+}
+
+.fullscreen-container {
+    padding: 0 50px 0 50px;
+}
+
+h4#detailsDay{
+    font-weight:700;
+    margin-bottom:0;
+}
+
+.content-container {
+    padding-top:120px;
+    padding-bottom:40px;
+    min-height: 60vh;
+
+    h2 {
+        font-size: 2rem;
+        font-weight:500;
+      }
+  
+      h3 {
+        font-size: 1.8rem;
+        font-weight:400;
+      }
+  
+      h4 {
+        font-size: 1.6rem;
+        font-weight:300;
+      }
+  
+      a {
+        text-decoration: none;
+        color:$brand-primary;
+      }
+  
+      a:hover {
+        text-decoration: underline;
+      }
+}

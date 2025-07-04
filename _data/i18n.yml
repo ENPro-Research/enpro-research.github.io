@@ -38,208 +38,23 @@ t:
     contact:
       en: "Contact"
       de: "Kontakt"
-
-  sections:
-    funding:
-      logo:
-        en: "upperaustria_en.png"
-        de: "upperaustria_de.png"
-      text:
-        en: "The project Energy Neutral Production is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information visit "
-        de: "Das Projekt Energy Neutral Production wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter "
-      link:
-        en: "https://www.uppervision.at/en/"
-        de: "https://www.uppervision.at/"
-      link_text:
-        en: "www.uppervision.at."
-        de: "www.uppervision.at."
-    info:
-      title:
-        en: "Info"
-        de: "Info"
-      subtitle:
-        en: "About the project"
-        de: "Über das Projekt"
-      techniques:
-        - modelling:
-          icon: "cubes"
-          title:
-            en: "Modelling"
-            de: "Modellierung"
-          text:
-            en: "Data- and knowledge-based models for the detection and prediction of energy consumption"
-            de: "Daten- und wissensbasierte Modelle zur Erfassung und Prognose des Energieverbrauchs"
-        - simulation:
-          icon: "hexagon-nodes"
-          title:
-            en: "Simulation"
-            de: "Simulation"
-          text:
-            en: "Simulation models for the representation of energy consumption"
-            de: "Simulationsmodelle zur Abbildung des Energieverbrauchs"
-        - optimization:
-          icon: "rocket"
-          title:
-            en: "Optimization"
-            de: "Optimierung"
-          text:
-            en: "Optimization methods for reducing energy consumption in production"
-            de: "Optimierungsmethoden zur Reduktion des Energieverbrauchs in der Produktion"
-    team:
-      title:
-        en: "Team"
-        de: "Team"
-      subtitle:
-        en: "Our researchers"
-        de: "Unsere Forscher"
-      members:
-        - name: Klaus Altendorfer
-          title: Priv. Doz. FH-Prof. DI (FH), PhD
-          img: Altendorfer_Portrait.jpg
-          position: Key Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Doris Bernroider
-          title: BSc MSc
-          img: Bernroider_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Balwin Bokor
-          title: BA MSc
-          img: Bokor_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Manuel Brunner
-          title: BSc MSc
-          img: Brunner_Portrait.jpg
-          position: Administrative Project Lead
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Roman Froschauer
-          title: FH-Prof. DI (FH) Dr.techn.
-          img: Froschauer_Portrait.jpg
-          position: Key Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Jochen Giedenbacher
-          title: BSC MSc
-          img: Giedenbacher_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Holger Gröning
-          title: FH-Prof. Dr.-Ing.
-          img: Groening_Portrait.jpg
-          position: Key Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Florian Holzinger
-          title: BSc MSc
-          img: Holzinger_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Philipp Neuhauser
-          title: BSc MSc
-          img: Neuhauser_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Wolfgang Seiringer
-          title: MMag. Bakk. techn.
-          img: Seiringer_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Fabian Spitzer
-          title: DI BSc
-          img: Spitzer_Portrait.jpg
-          position: Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-        - name: Stefan Wagner
-          title: FH-Prof. DI Dr.
-          img: wagner.jpg
-          position: Key Researcher
-          social:
-            - icon: twitter
-              url: #
-            - icon: facebook
-              url: #
-            - icon: stack-overflow
-              url: #
-      
+    publications:
+      en: "Publications"
+      de: "Publikationen"
 
   links:
+    enpro:
+      en: https://enpro-research.github.io/en/
+      de: https://enpro-research.github.io/
     swph:
       en: "https://www.softwarepark-hagenberg.com/en/"
       de: "https://www.softwarepark-hagenberg.com/"
-    scch:
-      en: "https://www.scch.at/"
-      de: "https://www.scch.at/"
     fhooe:
       en: "https://www.fh-ooe.at/en/"
       de: "https://www.fh-ooe.at/"
-    risc:
-      en: "https://www.risc-software.at/en/"
-      de: "https://www.risc-software.at/"
+    github:
+      en: "https://github.com/enpro-research"
+      de: "https://github.com/enpro-research"
 
   pages:
     imprint:
@@ -264,6 +79,147 @@ t:
       en: "Sitemap"
       de: "Sitemap"
 
+  team:
+    title:
+      en: "Team"
+      de: "Team"
+    subtitle:
+      en: "Our researchers"
+      de: "Unsere Forscher"
+    members:
+      - name: Klaus Altendorfer
+        title: Priv. Doz. FH-Prof. DI (FH), PhD
+        img: Altendorfer_Portrait_small.jpg
+        position: Key Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Doris Bernroider
+        title: BSc MSc
+        img: Bernroider_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Balwin Bokor
+        title: BA MSc
+        img: Bokor_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Manuel Brunner
+        title: BSc MSc
+        img: Brunner_Portrait_small.jpg
+        position: Administrative Project Lead
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Roman Froschauer
+        title: FH-Prof. DI (FH) Dr.techn.
+        img: Froschauer_Portrait_small.jpg
+        position: Key Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Jochen Giedenbacher
+        title: BSC MSc
+        img: Giedenbacher_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Holger Gröning
+        title: FH-Prof. Dr.-Ing.
+        img: Groening_Portrait_small.jpg
+        position: Key Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Florian Holzinger
+        title: BSc MSc
+        img: Holzinger_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Philipp Neuhauser
+        title: BSc MSc
+        img: Neuhauser_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Wolfgang Seiringer
+        title: MMag. Bakk. techn.
+        img: Seiringer_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Fabian Spitzer
+        title: DI BSc
+        img: Spitzer_Portrait_small.jpg
+        position: Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      - name: Stefan Wagner
+        title: FH-Prof. DI Dr.
+        img: wagner.jpg
+        position: Key Researcher
+        social:
+          - icon: twitter
+            url: #
+          - icon: facebook
+            url: #
+          - icon: stack-overflow
+            url: #
+      
   footer:
     fhooe:
       en: "FH Upper Austria"
@@ -271,18 +227,12 @@ t:
     fhooe-link:
       en: "https://www.fh-ooe.at/en/"
       de: "https://www.fh-ooe.at/"
-    risc:
-      en: RISC Software GmbH
-      de: RISC Software GmbH
-    risc-link:
-      en: https://www.risc-software.at/en/
-      de: https://www.risc-software.at/
-    scch:
-      en: SCCH GmbH
-      de: SCCH GmbH
-    scch-link:
-      en: "https://www.scch.at/"
-      de: "https://www.scch.at/"
+    heal:
+      en: "Heuristic and Evolutionary Algorithms Laboratory"
+      de: "Heuristic and Evolutionary Algorithms Laboratory"
+    heal-link:
+      en: "https://heal.heuristiclab.com"
+      de: "https://heal.heuristiclab.com"   
     uv30-link:
       en: "https://www.uppervision.at/en/"
       de: "https://www.uppervision.at/"
@@ -302,8 +252,8 @@ t:
       en: "University of Applied Sciences Upper Austria"
       de: "Fachhochschule Oberösterreich"
     fundingtext:
-      en: 'The project Secure Prescriptive Analytics is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information go to'
-      de: 'Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter'
+      en: 'The project ENPro is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information go to'
+      de: 'Das Projekt ENPro wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter'
 
 
   months:
