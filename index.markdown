@@ -18,8 +18,22 @@ description: Website des Forschungsprojekts ENPro
                 Das Projekt Energy Neutral Production wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter www.uppervision.at.
                 </p>
                 <p class="text-justify">
-                Mit dem vom Land OÖ geförderten Projekt ENPro (Energy Neutral Production) verfolgt die FH OÖ das Ziel, durch Modellierung, Simulation und Optimierung neue Wege zur energieeffizienten und perspektivisch energieneutralen Produktion aufzuzeigen. Der Projektstart erfolgte im Frühjahr 2025. Federführend ist das Center of Excellence for Smart Production, beteiligt sind Standorte aus Hagenberg, Steyr und Wels. Im Mittelpunkt des Projekts steht die Frage, wie produzierende Unternehmen auf Basis bestehender Energieerzeugungs- und Speichertechnologien ihre Produktionsprozesse so gestalten können, dass Energieverbrauch, CO2-Ausstoß und Netzbelastung deutlich reduziert werden. 
+                Mit dem vom Land OÖ geförderten Projekt ENPro (Energy Neutral Production) verfolgt die FH OÖ das Ziel, durch Modellierung, Simulation und Optimierung neue Wege zur energieeffizienten und perspektivisch energieneutralen Produktion aufzuzeigen. Der Projektstart erfolgte im Frühjahr 2025. Federführend ist das Center of Excellence for Smart Production, beteiligt sind Standorte aus Hagenberg, Steyr und Wels. Im Mittelpunkt des Projekts steht die Frage, wie produzierende Unternehmen auf Basis bestehender Energieerzeugungs- und Speichertechnologien ihre Produktionsprozesse so gestalten können, dass Energieverbrauch, CO2-Ausstoß und Netzbelastung deutlich reduziert werden.
                 </p>
+            </div>
+        </div>
+    </div>    
+    <div class="container">
+        <div class="row align-items-center text-center">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img src="{{ 'assets/img/' | append: site.data.i18n.t.logo.upperaustria.img[page.lang] | relative_url }}" 
+                alt="{{ site.data.i18n.t.logo.upperaustria.title[page.lang] }}"
+                class="img-fluid mx-auto d-block" style="max-height: 180px; width: auto;">
+            </div>
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img src="{{ 'assets/img/' | append: site.data.i18n.t.logo.fh.img[page.lang] | relative_url }}" 
+                alt="{{ site.data.i18n.t.logo.fh.title[page.lang] }}"
+                class="img-fluid mx-auto d-block" style="max-height: 100px; width: auto;">
             </div>
         </div>
     </div>

@@ -10,12 +10,23 @@ languages:
 
 default: de
 
-logo:
-  upperaustria:
-    en: "assets/img/logos/logo_upperaustria_en.png"
-    de: "assets/img/logos/logo_upperaustria_de.png"
-
 t:
+  logo:
+    upperaustria:
+      title:
+        de: "Land Oberösterreich"
+        en: "State of Upper Austria"
+      img:
+        en: "logo_upperaustria_en.png"
+        de: "logo_upperaustria_de.png"
+    fh:
+      title:
+        de: "FH Oberösterreich"
+        en: "University of Applied Sciences Upper Austria"
+      img:
+        en: "logo_fh.jpg"
+        de: "logo_fh.jpg"
+        
   nav:
     info:
       en: "Info"
