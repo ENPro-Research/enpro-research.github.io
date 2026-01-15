@@ -1,8 +1,54 @@
-  - id: habringer2024scheduling
-    year: 2024
+  - id: altendorfer2025agent
+    year: 2025
+    title: "Agent-Based Simulation for Energy-Aware Production Scheduling: A Structured Practical Guide"
+    authors: Altendorfer, K., Bokor, B. & Seiringer, W.
+    publisher: "Simulation in Production and Logistics 2025 – Proceedings of the 21th ASIM Conference"
+    abstract: 
+    link: /
+    status: "Accepted for Publication"
+
+  - id: bernroider2025energy
+    year: 2025
+    title: "Energy Neutral Production – A Modelling Approach of the Energy Consumption in Production"
+    authors: Bernroider, D., Spitzer, F., Giedenbacher, J. & Groening, H.
+    publisher: "International Conference on Industry of the Future and Smart Manufacturing"
+    abstract: 
+    link: /
+    status: "Accepted for Publication"
+
+  - id: bokor2025energy
+    year: 2025
+    title: "Energy-Efficient Shift Staffing and Machine Stopping: A Threshold-Driven Two-Level Heuristic"
+    authors: Bokor, B., Seiringer, W., Altendorfer, K. & Braune, R.
+    publisher: "International Conference on Industry of the Future and Smart Manufacturing"
+    abstract: 
+    link: /
+    status: "Accepted for Publication"
+
+  - id: neuhauser2025event
+    year: 2025
+    title: "An Event-Streaming Architecture for Machine Learning in Dynamic Sensor Landscapes"
+    authors: Neuhauser, P., Holzinger, F. & Wagner, S.
+    publisher: "International Conference on Industry of the Future and Smart Manufacturing"
+    abstract: 
+    link: /
+    status: "Accepted for Publication"
+
+  - id: seiringer2025integrating
+    year: 2025
+    title: "Integrating Energy Storage into Shopfloor Dispatching: A Threshold-Based Energy-Aware Control Approach"
+    authors: Seiringer, W., Bokor, B., Altendorfer, K. & Braune, R.
+    publisher: "2025 Winter Simulation Conference WSC"
+    abstract: 
+    link: /
+    status: "Accepted for Publication"
+
+  - id: habringer2025scheduling
+    year: 2025
     title: "Energy aware scheduling via tree-based search algorithms: A case study on lead plate ripening"
     authors: Habringer, S., Holzinger, F., Werth, B. & Wagner, S.
     publisher:
     abstract: 
     link: /
+    status: "Accepted for Publication"
   
