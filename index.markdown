@@ -28,7 +28,7 @@ description: Website des Forschungsprojekts ENPro
             <div class="col-12 col-md-6 mb-3 mb-md-0">
                 <img src="{{ 'assets/img/' | append: site.data.i18n.t.logo.upperaustria.img[page.lang] | relative_url }}" 
                 alt="{{ site.data.i18n.t.logo.upperaustria.title[page.lang] }}"
-                class="img-fluid mx-auto d-block" style="max-height: 180px; width: auto;">
+                class="img-fluid mx-auto d-block" style="max-height: 140px; width: auto;">
             </div>
             <div class="col-12 col-md-6 mb-3 mb-md-0">
                 <img src="{{ 'assets/img/' | append: site.data.i18n.t.logo.fh.img[page.lang] | relative_url }}" 

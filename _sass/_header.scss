@@ -35,6 +35,20 @@ header.home-header {
       color: $base-text-color-light;
    }
 
+   .hero-title {
+      font-weight: 800;
+      line-height: 1.1;
+   }
+
+   .hero-title-main {
+      font-size: 1.5em;
+   }
+
+   .hero-title-sub {
+      font-size: 1em;
+      font-weight: 600;
+   }
+
    h1 {
       font-size: 4.0rem;
       font-weight: 700;
