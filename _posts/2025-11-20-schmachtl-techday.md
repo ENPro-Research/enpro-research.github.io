@@ -2,7 +2,7 @@
 layout: post
 lang: de
 title: Vorstellung des Projekts am SCHMACHTL TechDay 2025
-description: "Im November 2025 wurde das Forschungsprojekt am SCHMACHTL TechDay 2025 beim Austausch mit Branchenexperten\*innen aus verschiedensten Industriebereichen vorgestellt."
+description: "Im November 2025 wurde das Forschungsprojekt am SCHMACHTL TechDay 2025 beim Austausch mit Branchenexperten*innen aus verschiedensten Industriebereichen vorgestellt."
 keywords: SCHMACHTL TechDay 2025
 date: 2025-11-20 12:00 +0100
 categories:
