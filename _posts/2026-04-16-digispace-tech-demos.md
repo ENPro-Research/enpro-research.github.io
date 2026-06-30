@@ -9,7 +9,7 @@ categories:
   - "News"
   - "Dissemination"
 author: wseiringer
-image: /blog/resources/2026-05-16-digispace-tech-demos/2026-05-16-digispace-tech-demos.png
+image: /blog/resources/2026-04-16-digispace-tech-demos/2026-04-16-digispace-tech-demos.png
 ---
 
 Am 16. April 2026 präsentierte ein Teil des ENPro-Teams das Projekt bei den **DigiSpace Tech Demos** im Rahmen des **Forum Produktion und Management 2026** an der FH OÖ Campus Steyr. Die Tech Demos boten die Möglichkeit, aktuelle Forschungsarbeiten einem breiten Publikum aus Wissenschaft und Industrie vorzustellen.
@@ -24,4 +24,4 @@ Neben der Präsentation des Projekts konnte das ENPro-Team bestehende Kontakte v
 
 <br/>
 
-![2026-05-16-digispace-tech-demos.png](/blog/resources/2026-05-16-digispace-tech-demos/2026-05-16-digispace-tech-demos.png) <br/><br/>
+![2026-04-16-digispace-tech-demos.png](/blog/resources/2026-04-16-digispace-tech-demos/2026-04-16-digispace-tech-demos.png) <br/><br/>
