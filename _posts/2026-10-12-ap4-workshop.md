@@ -7,7 +7,7 @@ keywords: AP4 Kickoff Workshop Optimierung
 date: 2026-10-12 12:00 +0200
 categories:
   - "News"
-  - "Project"
+  - "Dissemination"
 author: pneuhauser
 image: /blog/resources/2026-10-12-ap4-workshop/2026-10-12-ap4-workshop.jpg
 ---
